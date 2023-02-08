@@ -1,0 +1,262 @@
+#contaner{
+    font: 20px 'Roboto', sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+tr{
+    flex:1;
+}
+
+aside{
+    border-right: 2px solid #4e4a4e;
+}
+
+figure{
+display: flex;
+justify-content: center;
+}
+
+nav{
+    background-color: #fff;
+    color: #eee;
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: 2px;
+    display: flex;
+    font: 20px 'Roboto', sans-serif;
+    justify-content: space-between;
+    /* padding: 20px;
+    width: 60.33%; */
+    justify-content: space-evenly;
+    margin: 50px auto;
+    border-bottom: 2px solid #4e4a4e;
+
+}
+
+
+
+p{
+  display: flex;
+  max-width: 400px;
+}
+
+.navbarlink{
+    text-decoration: none;
+    color: #5f5b5f;
+    padding: 10px;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+.navbarlink.active {
+    color: #bb0fd9;
+  }
+
+.navbarlink:hover {
+    background-color: #bb0fd9;
+    color: #fff;
+  }
+  
+  /* Purple bar above navbar */
+  .navbar::before {
+    padding: 15px;
+    content: "";
+    height: 3px;
+    width: 100%;
+    background-color: #a611c8;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+#myemail{
+    color: #a611c8;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#name{
+    color: #4e4a4e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+#profeson{
+    color: #4e4a4e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#name_and_email{
+    flex:1;
+
+    /* background-color: #2a282a; */
+}
+
+
+#res{
+    flex:1;
+    margin-top: 100px;
+    display: "center";
+    color: #4e4a4e;
+}
+
+/* remove line under anchor tages in the class res */
+.res a{
+    text-decoration: none;
+}
+
+#year{
+    /* make them right justified */
+    text-align: right;
+    /* make them gray */
+    color: #4e4a4e;
+}
+
+#picture_and_text{
+    display: flex;
+    flex-direction: column;
+}
+
+
+@media only screen and (max-width: 800px){
+    #contaner{
+        font: 20px 'Roboto', sans-serif;
+        display: flex;
+        flex-direction: column;
+    }
+
+    
+    nav{
+        background-color: #fff;
+        color: #eee;
+        text-align: center;
+        font-size: 20px;
+        letter-spacing: 2px;
+        display: flex;
+        font: 20px 'Roboto', sans-serif;
+        justify-content: space-between;
+        padding: 20px;
+        width: 60.33%;
+        margin: 50px auto;
+    }
+    
+    p{
+      display: flex;
+    }
+    
+    .navbarlink{
+        text-decoration: none;
+        color: #5f5b5f;
+        padding: 10px;
+        border-radius: 5px;
+        transition: 0.5s;
+    }
+    
+    .navbarlink.active {
+        color: #bb0fd9;
+      }
+    
+    .navbarlink:hover {
+        background-color: #bb0fd9;
+        color: #fff;
+      }
+      
+      /* Purple bar above navbar */
+      .navbar::before {
+        padding: 15px;
+        content: "";
+        height: 3px;
+        width: 100%;
+        background-color: #a611c8;
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+    #contaner{
+      display:flex;
+    }
+    
+    img{
+         width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        overflow: hidden;
+    }
+    
+    #myemail{
+        color: #a611c8;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #name{
+        color: #4e4a4e;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    #profeson{
+        color: #4e4a4e;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    #maincontent{
+        flex:1;
+    }
+    #name_and_email{
+        flex:1;
+        /* background-color: #2a282a; */
+    }
+    
+    
+    #leftside{
+        flex:1;
+        width: 100%;
+        margin-left: 30px;
+        background: #fff;
+    }
+    
+    #maincontent{
+        flex:1;
+        margin-left: 30px;
+    }
+    
+    #res{
+        flex:1;
+        margin-top: 100px;
+        display: "center";
+        color: #4e4a4e;
+    }
+    
+    /* remove line under anchor tages in the class res */
+    .res a{
+        text-decoration: none;
+    }
+    
+    #year{
+        /* make them right justified */
+        text-align: right;
+        /* make them gray */
+        color: #4e4a4e;
+    }
+}
