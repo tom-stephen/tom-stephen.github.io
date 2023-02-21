@@ -29,6 +29,7 @@ nav{
     justify-content: space-evenly;
     margin: 50px auto;
     border-bottom: 2px solid #4e4a4e;
+    padding: 10px;
 
 }
 
@@ -150,6 +151,7 @@ img{
         padding: 20px;
         width: 60.33%;
         margin: 50px auto;
+        padding: 10px;
     }
     
     p{
