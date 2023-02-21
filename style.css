@@ -26,8 +26,6 @@ nav{
     display: flex;
     font: 20px 'Roboto', sans-serif;
     justify-content: space-between;
-    /* padding: 20px;
-    width: 60.33%; */
     justify-content: space-evenly;
     margin: 50px auto;
     border-bottom: 2px solid #4e4a4e;
@@ -50,11 +48,11 @@ p{
 }
 
 .navbarlink.active {
-    color: #bb0fd9;
+    color: #013727;
   }
 
 .navbarlink:hover {
-    background-color: #bb0fd9;
+    background-color: #013727;
     color: #fff;
   }
   
@@ -64,7 +62,7 @@ p{
     content: "";
     height: 3px;
     width: 100%;
-    background-color: #a611c8;
+    background-color: #013727;
     position: absolute;
     top: 0;
     left: 0;
@@ -78,7 +76,7 @@ img{
 }
 
 #myemail{
-    color: #a611c8;
+    color: #013727;
     text-decoration: none;
     display: flex;
     align-items: center;
@@ -167,11 +165,11 @@ img{
     }
     
     .navbarlink.active {
-        color: #bb0fd9;
+        color: #013727;
       }
     
     .navbarlink:hover {
-        background-color: #bb0fd9;
+        background-color: #013727;
         color: #fff;
       }
       
@@ -181,7 +179,7 @@ img{
         content: "";
         height: 3px;
         width: 100%;
-        background-color: #a611c8;
+        background-color: #013727;
         position: absolute;
         top: 0;
         left: 0;
@@ -198,7 +196,7 @@ img{
     }
     
     #myemail{
-        color: #a611c8;
+        color: #013727;
         text-decoration: none;
         display: flex;
         align-items: center;
